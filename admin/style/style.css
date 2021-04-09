@@ -1,0 +1,327 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+
+
+@media (min-width: 1281px) {
+  
+	  body {
+		background:url(../img/background.jpg);
+		background-repeat:no-repeat; 
+		background-size:cover; 
+		height:auto; 
+		background-attachment:fixed; 
+		background-position: center;
+		text-align:center;
+							 
+	 
+		}
+  	
+	h2	{		
+		font-size:100px;
+		color:#DB7402;
+			
+		}
+		
+	div {			
+		background-repeat:repeat; 
+		width:600px; 
+		height:auto;
+		position:static;
+		display:inline-block;
+		padding-top:25px;
+		padding-bottom:25px;
+			
+		}
+		
+	input {
+		width: 30%;
+		height: 30px;
+		}
+		
+	p1 {
+		font-size:50px;	
+		
+		}
+		
+	p2	{
+		font-size:30px;	
+		
+		}
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+    body {
+		background:url(../img/background.jpg);
+		background-repeat:no-repeat; 
+		background-size:cover; 
+		height:2000px;
+		background-attachment:fixed; 
+		background-position: center;
+		text-align:center;
+	 
+	 
+  }
+  
+  h2	{		
+		font-size:150px;
+		color:#DB7402;
+			
+		}
+		
+	div {			
+		background-repeat:repeat; 
+		width:600px; 
+		height:auto;
+		position:static;
+		display:inline-block;
+		text-align:center;
+		height:90%;
+		padding-top:25px;
+		padding-bottom:25px;
+			
+		}
+		
+	input {
+		width: 30%;
+		height: 80px;
+		font-size:50px;	
+		}
+		
+	p1 {
+		font-size:50px;	
+		
+		}
+		
+	p2	{
+		font-size:30px;
+		
+		}
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    body {
+		background:url(../img/background.jpg);
+		background-repeat:no-repeat; 
+		background-size:cover; 
+		height:2000px; 
+		background-attachment:fixed; 
+		background-position: center;	
+		text-align:center; 
+	 
+  		}
+  
+	h2	{		
+		font-size:150px;
+		color:#DB7402;
+			
+		}
+		
+	div {			
+		background-repeat:repeat; 
+		width:600px; 
+		height:auto;
+		position:static;
+		display:inline-block;
+		width:90%;
+		padding-top:25px;
+		padding-bottom:25px;
+			
+		}
+		
+	input {
+		width: 30%;
+		height: 80px;
+		font-size:50px;	
+		}
+		
+	p1 {
+		font-size:50px;	
+		
+		}
+		
+	p2	{
+		font-size:30px;	
+		
+		}
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+	body {
+		background:url(../img/background.jpg);
+		background-repeat:no-repeat; 
+		background-size:cover; 
+		height:2000px;
+		background-attachment:fixed; 
+		background-position: center;
+		text-align:center;	 
+	 
+  		}
+  
+	h2	{		
+		font-size:150px;
+		color:#DB7402;
+			
+		}
+		
+	div {			
+		background-repeat:repeat; 
+		width:600px; 
+		height:auto;	
+		position:static;
+		display:inline-block;
+		width:90%;
+		padding-top:25px;
+		padding-bottom:25px;
+			
+		}
+		
+	input {
+		width: 30%;
+		height: 80px;
+		font-size:50px;	
+		}
+		
+	p1 {
+		font-size:50px;	
+		
+		}
+		
+	p2	{
+		font-size:30px;	
+		
+		}
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+	body {
+		background:url(../img/background.jpg);
+		background-repeat:no-repeat; 
+		background-size:cover; 
+		height:2000px; 
+		background-attachment:fixed; 
+		background-position: center; 
+	 
+		}
+  
+	h2	{		
+		font-size:150px;
+		color:#DB7402;
+			
+		}
+		
+	div {			
+		background-repeat:repeat; 
+		width:600px; 
+		height:auto;
+		position:static;
+		display:inline-block;
+		text-align:center;
+		width:90%;
+		padding-top:25px;
+		padding-bottom:25px;
+			
+		}
+		
+	input {
+		width: 30%;
+		height: 80px;
+		font-size:50px;	
+		}
+		
+	p1 {
+		font-size:50px;	
+		
+		}
+		
+	p2	{
+		font-size:30px;
+		
+		}
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+	body {
+		background:url(../img/background.jpg);
+		background-repeat:no-repeat; 
+		background-size:cover; 
+		height:2000px;
+		background-attachment:fixed; 
+		background-position: center;
+	 
+	 
+		}
+  
+	h2	{		
+		font-size:150px;
+		color:#DB7402;
+			
+		}
+		
+	div {			
+		background-repeat:repeat; 
+		width:600px; 
+		height:auto;
+		position:static;
+		display:inline-block;
+		text-align:center;
+		width:90%;
+		padding-top:25px;
+		padding-bottom:25px;
+			
+		}
+		
+	input {
+		width: 30%;
+		width: 80px;	
+		font-size:50px;	
+		}
+		
+	p1 {
+		font-size:50px;	
+		
+		}
+		
+	p2	{
+		font-size:30px;
+		
+		}
+  
+}
